@@ -90,3 +90,15 @@ body, html {
   position: relative;
   animation: fadein 1.5s;
 }
+
+
+/* About Page */
+.about-hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/About_Us_1.jpg');
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: fadein 1.5s;
+}
