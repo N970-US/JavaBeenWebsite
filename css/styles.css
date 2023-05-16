@@ -1,12 +1,29 @@
 /* This is the main CSS document*/
 
-/* Add in fonts */
-
-
-
 /*All Pages*/
 #pageFade{
   display:none;
+}
+
+.header-text{
+  font-family: 'Bitter', serif;
+}
+
+.subheader-text{
+  font-family: 'Bitter', serif;
+}
+
+.body-text{
+  font-family: 'Hind', sans-serif;
+}
+
+.page-links{
+  font-family: 'Bitter', serif;
+}
+
+@keyframes fadein{
+  from{opacity:0;}
+  to{opacity:1;}
 }
 
 /* Contact Page */
@@ -35,7 +52,3 @@ body, html {
   color: white;
 }
 
-@keyframes fadein{
-  from{opacity:0;}
-  to{opacity:1;}
-}
