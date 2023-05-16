@@ -26,6 +26,11 @@
   font-size: 30px;
 }
 
+.header-nav{
+  font-family: 'Hind', serif;
+  font-size: 15px;
+}
+
 @keyframes fadein{
   from{opacity:0;}
   to{opacity:1;}
