@@ -73,3 +73,15 @@ body, html {
   position: relative;
   animation: fadein 1.5s;
 }
+
+
+/* Locations Page */
+.locations-hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Location_1.jpg');
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: fadein 1.5s;
+}
