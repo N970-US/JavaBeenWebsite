@@ -31,6 +31,11 @@
   font-size: 25px;
 }
 
+.footer-text{
+  font-family: 'Hind', sans-serif;
+  font-size: 17px;
+}
+
 @keyframes fadein{
   from{opacity:0;}
   to{opacity:1;}
