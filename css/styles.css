@@ -12,17 +12,17 @@
 
 .subheader-text{
   font-family: 'Bitter', serif;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .body-text{
   font-family: 'Hind', sans-serif;
-  font-size: 40px;
+  font-size: 23px;
 }
 
 .page-links{
   font-family: 'Bitter', serif;
-  font-size: 60px;
+  font-size: 30px;
 }
 
 @keyframes fadein{
