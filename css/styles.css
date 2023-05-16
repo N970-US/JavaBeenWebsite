@@ -1,5 +1,6 @@
 /* This is the main CSS document*/
 
+
 /*All Pages*/
 #pageFade{
   display:none;
@@ -30,21 +31,9 @@
   to{opacity:1;}
 }
 
-/* Contact Page */
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Contact_1.png');
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  animation: fadein 1.5s;
 }
 
 .hero-text {
@@ -56,3 +45,26 @@ body, html {
   color: white;
 }
 
+
+/* Contact Page */
+.contact-hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Contact_1.png');
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: fadein 1.5s;
+}
+
+
+/* Index Page */
+.index-hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Homepage_1.jpg');
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: fadein 1.5s;
+}
