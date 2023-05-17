@@ -1,17 +1,20 @@
+submitBtn.addEventListener('click', validate);
+
+
 const submitBtn = document.getElementById('submit-btn');
 
 const validate = (e) => {
   e.preventDefault();
-  const name = document.getElementById('name');
-  const email = document.getElementById('email');
-  if (name.value === "") {
-    alert("Please enter your name.");
-    name.focus();
+  const username = document.getElementById('username');
+  const emailAddress = document.getElementById('email-address');
+  if (username.value === "") {
+    alert("USERNAME IS  NULLL");
+    username.focus();
     return false;
   }
-  if (email.value === "") {
-    alert("Please enter your email address.TESTTESTTEST");
-    email.focus();
+  if (emailAddress.value === "") {
+    alert("Please enter your email address.ESTTESTTES");
+    emailAddress.focus();
     return false;
   }
   
