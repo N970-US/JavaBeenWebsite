@@ -16,6 +16,12 @@
   font-size: 40px;
 }
 
+.body-header-text{
+  font-family: 'Hind', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
 .body-text{
   font-family: 'Hind', sans-serif;
   font-size: 23px;
@@ -95,6 +101,18 @@ body, html {
 /* About Page */
 .about-hero-image{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/About_Us_1.jpg');
+  height: 50%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: fadein 1.5s;
+}
+
+
+/* Menu Page */
+.menu-hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Menu_1.jpg');
   height: 50%;
   background-position: bottom;
   background-repeat: no-repeat;
