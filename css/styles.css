@@ -18,8 +18,7 @@
 
 .body-header-text{
   font-family: 'Hind', sans-serif;
-  font-size: 26px;
-  font-weight: bold;
+  font-size: 28px;
 }
 
 .body-text{
@@ -102,7 +101,7 @@ body, html {
 .about-hero-image{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/About_Us_1.jpg');
   height: 50%;
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
