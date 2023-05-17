@@ -18,7 +18,7 @@
 
 .body-header-text{
   font-family: 'Hind', sans-serif;
-  font-size: 28px;
+  font-size: 33px;
 }
 
 .body-text{
@@ -112,6 +112,18 @@ body, html {
 /* Menu Page */
 .menu-hero-image{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Menu_1.jpg');
+  height: 50%;
+  background-position: 15% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: fadein 1.5s;
+}
+
+
+/* Shop Page */
+.shop-hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Shop_1.jpg');
   height: 50%;
   background-position: 15% 25%;
   background-repeat: no-repeat;
