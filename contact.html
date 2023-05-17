@@ -12,39 +12,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Hind&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="js/myscripts.js">
-
-const submitBtn = document.getElementById('submit-btn');
-
-const validate = (e) => {
-  e.preventDefault();
-  const username = document.getElementById('username');
-  const emailAddress = document.getElementById('email-address');
-  if (username.value === "") {
-    alert("Please enter your username.");
-    username.focus();
-    return false;
-  }
-  if (emailAddress.value === "") {
-    alert("Please enter your email address.");
-    emailAddress.focus();
-    return false;
-  }
-  
-  return true;
-}
-
-submitBtn.addEventListener('click', validate);
-
-</script>
+        <script src="js/myscripts.js"></script>
 
         <script>
-
             $(document).ready(function(){
                 $("#pageFade").fadeIn(2000);
             });
-
         </script>
+        
     </head>
     
     
