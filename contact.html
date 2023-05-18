@@ -18,17 +18,17 @@
         var subject = document.getElementById("userSubject").value;
         var message = document.getElementById("userMessage").value;
 
-        if (userName.length <= 0) {
+        if (username.length <= 0) {
             alert("Please enter name.");
             return false;
         }
-        if (password == null || password == "") {
-            alert("Please enter the password.");
+        if (subject == null || subject == "") {
+            alert("Please enter a subject.");
             return false;
         }
-         if (repassword == null || repassword == "" || repassword != password) {
+         if (message == null || repassword == "") {
             // Changed Password message for testing
-            alert("Confirm Password empty or do not match.");
+            alert("Message is empty.");
             return false;
         }
     } 
