@@ -12,7 +12,27 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Hind&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script type="text/javascript" src="js/myscripts.js"></script>
+        <script type="text/javascript">
+                function validate() {
+        var username = document.getElementById("userName").value;
+        var subject = document.getElementById("userSubject").value;
+        var message = document.getElementById("userMessage").value;
+
+        if (userName.length <= 0) {
+            alert("Please enter name.");
+            return false;
+        }
+        if (password == null || password == "") {
+            alert("Please enter the password.");
+            return false;
+        }
+         if (repassword == null || repassword == "" || repassword != password) {
+            // Changed Password message for testing
+            alert("Confirm Password empty or do not match.");
+            return false;
+        }
+    } 
+        </script>
 
         <script>
             $(document).ready(function(){
@@ -105,15 +125,26 @@
 
             <h2 class="subheader-text">For Additional Inqueries</h2>
 
-            <form novalidate>
-                <label for="mail">
-                  I would like you to provide me with an email address:
-                </label>
-                <input type="email" id="mail" name="mail" />
-                <button>Submit</button>
-              </form>
-              
+            <form id="form" onsubmit="return(validate());">
 
+                    <div class="form-group">
+                        <label for="name"></label>
+                        <input type="text" class="form-control" id="userName" placeholder="Name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="mail"></label>
+                        <input type="email" class="form-control" id="userMail" placeholder="Email" name="mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject"></label>
+                        <input type="text" class="form-control" id="userSubject" placeholder="Subject" name="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message"></label>
+                        <textarea class="form-control" id="userMessage" rows="3" placeholder="Message" name="message"></textarea>
+                    </div>
+                        <button type="submit" value="submit" id="submit-btn" class="btn btn-primary body-text">Submit</button>
+            </form>
             <br>
 
             <div class="container">
