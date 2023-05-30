@@ -22,4 +22,8 @@ function validate() {
         alert("Please enter a message.");
         return false;
     }
+    else{
+        alert("Thank you for your response")
+     } ;
 } 
+
